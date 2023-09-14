@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs
+
+
+website:
+  title: "My Profile"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About Me
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
